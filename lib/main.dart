@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:note/pages/note_page.dart';
+import 'package:note/pages/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,8 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: NotePage(),
+    return MaterialApp(
+      title: 'note',
+      debugShowCheckedModeBanner: false,
+      home: LoginPage(),
     );
   }
 }
