@@ -41,7 +41,8 @@ dependencies:
       url: https://github.com/MrLittleWhite/isar_flutter_libs.git
   path_provider: ^2.1.4
   provider: ^6.1.2
-
+  firebase_core: ^3.5.0
+  firebase_auth: ^5.3.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
